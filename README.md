@@ -31,19 +31,32 @@ A Python-based tool to scrape public profile data from [LeetCode](https://leetco
 ## Steps to start
 
 ```bash
-
 git clone https://github.com/devlpr-nitish/leetcode-scraper.git
-
+```
+```bash
 cd leetcode-scraper
+```
 
+```bash
 python3 -m venv venv
+```
 
+```bash
 source venv/bin/activate  # on mac/Linux
+```
 
+```bash
 venv\Scripts\activate     # On Windows
+```
 
+```bash
 pip install -r requirements.txt
+```
 
-# run the main file
+### create .env file and add data according to .env.sample
+
+### run the main file
+```bash
 python main.py
+```
 
